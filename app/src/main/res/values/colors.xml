@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 科技蓝色调 - 浅色主题 -->
+    <color name="techBlue80">#FF4FC3F7</color>
+    <color name="techBlueGrey80">#FF90CAF9</color>
+    <color name="techLightBlue80">#FFB3E5FC</color>
+
+    <!-- 科技蓝色调 - 深色主题 -->
+    <color name="techBlue40">#FF0288D1</color>
+    <color name="techBlueGrey40">#FF0277BD</color>
+    <color name="techLightBlue40">#FF039BE5</color>
+
+    <!-- 状态颜色 -->
+    <color name="connectionRed">#FFE53935</color>
+    <color name="connectedGreen">#FF00FF04</color>
+
+    <!-- Material Design 颜色 -->
+    <color name="background">#FFFFFBFE</color>
+    <color name="surface">#FFFFFBFE</color>
+    <color name="surfaceVariant">#FFF5F5F5</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="onSecondary">#FFFFFFFF</color>
+    <color name="onTertiary">#FFFFFFFF</color>
+    <color name="onBackground">#FF1C1B1F</color>
+    <color name="onSurface">#FF1C1B1F</color>
+    <color name="onSurfaceVariant">#FF49454F</color>
+    <color name="outline">#FF79747E</color>
+    <color name="error">#FFBA1A1A</color>
+
+    <!-- 原始颜色 -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

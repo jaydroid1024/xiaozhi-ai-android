@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="4dp">
+
+    <LinearLayout
+        android:id="@+id/message_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- AI头像 -->
+        <FrameLayout
+            android:id="@+id/ai_avatar_container"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_circle_primary"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="AI"
+                android:textColor="@color/onPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <!-- 消息内容 -->
+        <LinearLayout
+            android:id="@+id/message_bubble_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/message_bubble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_message_bubble"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:id="@+id/message_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="消息内容"
+                    android:textColor="@color/onSurfaceVariant"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp" />
+
+            </FrameLayout>
+
+            <!-- 时间戳 -->
+            <TextView
+                android:id="@+id/message_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="12:00"
+                android:textColor="@color/onSurfaceVariant"
+                android:textSize="10sp"
+                android:alpha="0.6" />
+
+        </LinearLayout>
+
+        <!-- 用户头像 -->
+        <FrameLayout
+            android:id="@+id/user_avatar_container"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_circle_secondary"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_person"
+                android:tint="@color/onSecondary" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 浅色主题 -->
+    <style name="Theme.Yuansheng" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/techBlue40</item>
+        <item name="android:colorPrimaryDark">@color/techBlue40</item>
+        <item name="android:colorAccent">@color/techLightBlue40</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+    </style>
 
-    <style name="Theme.Yuansheng" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- 深色主题 -->
+    <style name="Theme.Yuansheng.Dark" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/techBlue80</item>
+        <item name="android:colorPrimaryDark">@color/techBlue80</item>
+        <item name="android:colorAccent">@color/techLightBlue80</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+    </style>
 </resources>

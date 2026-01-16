@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "yuansheng"
+rootProject.name = "xiaozhi-ai-android"
 include(":app")
  
